@@ -114,6 +114,10 @@ footer{
     
 }
 
+#maingif hover{
+    background-color: #fec9ca;
+}
+
 .instruction_one{
     background-color: #FCFCFC;
     float: right;

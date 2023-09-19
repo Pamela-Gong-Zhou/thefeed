@@ -36,6 +36,15 @@ nav{
     color:#ccccff;
 }
 
+a{
+    color: #ccccff;
+    text-decoration: none;
+}
+
+nav h5 hover{
+    background-color: #9CC0E7;
+}
+
 main{
     margin-left:500px;
 }

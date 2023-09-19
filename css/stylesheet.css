@@ -17,6 +17,7 @@ h1{
     margin-top: 80px;
     color: #FCFCFC;
 }
+
 header{
     position:fixed;
     top:90px;
@@ -89,6 +90,7 @@ footer{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     padding-bottom: 200px;
     border-radius: 700px;
     -moz-border-radius: 700px;

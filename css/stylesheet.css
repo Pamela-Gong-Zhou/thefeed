@@ -10,18 +10,18 @@ body{
     background-color:#9CC0E7;
 }
 
+header{
+    position:fixed;
+    top:90px;
+    left:150px;
+}
+
 h1{
     font-size: 56pt;
     font-family:'Shantell Sans', cursive;
     text-align: center;
     margin-top: 80px;
     color: #FCFCFC;
-}
-
-header{
-    position:fixed;
-    top:90px;
-    left:150px;
 }
 
 nav{
@@ -61,9 +61,6 @@ section{
     z-index: 2;
 }
 
-section:hover{
-    transform: scale(1.25);
-}
 section img{
     display: block;
     margin:auto;

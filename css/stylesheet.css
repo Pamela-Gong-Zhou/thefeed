@@ -128,7 +128,7 @@ footer{
     background-color: #fec9ca;
 }
 
-.instruction_one{
+.instruction_one p {
     background-color: #FCFCFC;
     float: right;
     width: 700px;
@@ -141,7 +141,7 @@ footer{
     border-radius: 30px;
 }
 
-.instruction_two{
+.instruction_two p {
         background-color: #FCFCFC;
         float:left;
         width:700px ;

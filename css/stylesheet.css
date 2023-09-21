@@ -42,8 +42,8 @@ a{
     text-decoration: none;
 }
 
-nav h5 hover{
-    background-color: #9CC0E7;
+nav h5:hover{
+    color: #9CC0E7;
 }
 
 main{
@@ -109,9 +109,7 @@ footer{
 }
 
 #splashgif:hover{
-    border: 1px salmon solid;
-    transform: scale(1.5); 
-    opacity: .50;
+    transform: scale(.75); 
 }
 
 #maingif{
@@ -126,14 +124,14 @@ footer{
     
 }
 
-#maingif hover{
-    background-color: #fec9ca;
+#maingif:hover{
+    transform: scale(.75); 
 }
 
 .instruction_one p {
     background-color: #FCFCFC;
     float: right;
-    width: 500px;
+    width: 200px;
     text-align: center;
     color: #26355E;
     font-size: 50pt;
@@ -145,7 +143,7 @@ footer{
 .instruction_two p {
         background-color: #FCFCFC;
         float:left;
-        width:500px ;
+        width:200px ;
         text-align: center;
         color: #26355E;
         font-size: 50pt;

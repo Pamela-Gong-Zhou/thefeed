@@ -75,7 +75,8 @@ section p{
 }
 
 section video{
-    text-align: center;
+    display: block;
+    margin:auto;
 }
 
 footer{
@@ -107,8 +108,9 @@ footer{
     -webkit-border-radius: 700px;
 }
 
-#splashgif hover{
+#splashgif:hover{
     border: 1px salmon solid;
+    transform: scale(1.5); 
     opacity: .50;
 }
 
@@ -131,12 +133,11 @@ footer{
 .instruction_one p {
     background-color: #FCFCFC;
     float: right;
-    width: 700px;
+    width: 500px;
     text-align: center;
     color: #26355E;
     font-size: 50pt;
     font-family: 'Shantell Sans', cursive;
-    margin: 0px 0px 10px 10px;
     padding: 10px;
     border-radius: 30px;
 }
@@ -144,11 +145,22 @@ footer{
 .instruction_two p {
         background-color: #FCFCFC;
         float:left;
-        width:700px ;
+        width:500px ;
         text-align: center;
         color: #26355E;
         font-size: 50pt;
         font-family: 'Shantell Sans', cursive;
         padding: 10px;
         border-radius: 30px;
+}
+
+#splash_home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#feed_nav{
+    overflow: scroll; 
 }

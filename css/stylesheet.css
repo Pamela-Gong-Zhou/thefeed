@@ -6,6 +6,10 @@ body{
     margin:auto;
 }
 
+.container{
+    cursor: url("cursor.png");
+}
+
 #special{
     background-color:#9CC0E7;
 }
@@ -26,7 +30,7 @@ h1{
 
 nav{
     overflow: scroll;
-    height: 200px;
+    height: 300px;
     position:fixed;
     top:600px;
     left: 100px;
@@ -37,6 +41,7 @@ nav{
     color:#ccccff;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 50px;
 }
 
 nav a{
@@ -51,12 +56,13 @@ nav h5:hover{
 }
 
 main{
+    top: 90px;
     margin-left:500px;
 }
 
 section{
     background-color: #ccccff;
-    margin-top: 25px;
+    margin-top: 90px;
     padding:25px;
     border-radius: 20px;
     box-shadow: inset 0 0 10px #777777;
@@ -87,7 +93,6 @@ footer{
     background-color: #ccccff;
     text-align: center;
     position: relative;
-    left:25px;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 10px;

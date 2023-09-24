@@ -6,10 +6,6 @@ body{
     margin:auto;
 }
 
-.container{
-    cursor: url("cursor.png");
-}
-
 #special{
     background-color:#9CC0E7;
 }

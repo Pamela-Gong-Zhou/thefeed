@@ -10,6 +10,12 @@ body{
     background-color:#9CC0E7;
 }
 
+header{
+    position:fixed;
+    top:90px;
+    left:150px;
+}
+
 h1{
     font-size: 56pt;
     font-family:'Shantell Sans', cursive;
@@ -18,41 +24,41 @@ h1{
     color: #FCFCFC;
 }
 
-header{
-    position:fixed;
-    top:90px;
-    left:150px;
-}
-
 nav{
+    overflow: scroll;
+    height: 300px;
     position:fixed;
     top:600px;
     left: 100px;
     background-color: #FCFCFC;
-    padding: 20px;
-    border-radius: 100px;
+    border-radius: 20px;
     font-family: 'Rammetto One', cursive;
     font-size: 16pt;
     color:#ccccff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
 }
 
-a{
+nav a{
     color: #ccccff;
     background-color:#FCFCFC;
     text-decoration: none;
 }
 
-nav h5 hover{
-    background-color: #9CC0E7;
+nav h5:hover{
+    color: #9CC0E7;
+    padding-left: 20px;
 }
 
 main{
+    top: 90px;
     margin-left:500px;
 }
 
 section{
     background-color: #ccccff;
-    margin-top: 25px;
+    margin-top: 90px;
     padding:25px;
     border-radius: 20px;
     box-shadow: inset 0 0 10px #777777;
@@ -63,7 +69,7 @@ section{
 
 section img{
     display: block;
-    margin:auto;
+    margin: auto;
 }
 
 section p{
@@ -75,14 +81,14 @@ section p{
 }
 
 section video{
-    text-align: center;
+    display: block;
+    margin:auto;
 }
 
 footer{
     background-color: #ccccff;
     text-align: center;
     position: relative;
-    left:25px;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 10px;
@@ -107,9 +113,8 @@ footer{
     -webkit-border-radius: 700px;
 }
 
-#splashgif hover{
-    border: 1px salmon solid;
-    opacity: .50;
+#splashgif:hover{
+    transform: scale(.75); 
 }
 
 #maingif{
@@ -124,19 +129,18 @@ footer{
     
 }
 
-#maingif hover{
-    background-color: #fec9ca;
+#maingif:hover{
+    transform: scale(.75); 
 }
 
 .instruction_one p {
     background-color: #FCFCFC;
     float: right;
-    width: 700px;
+    width: 200px;
     text-align: center;
     color: #26355E;
-    font-size: 50pt;
+    font-size: 20pt;
     font-family: 'Shantell Sans', cursive;
-    margin: 0px 0px 10px 10px;
     padding: 10px;
     border-radius: 30px;
 }
@@ -144,11 +148,20 @@ footer{
 .instruction_two p {
         background-color: #FCFCFC;
         float:left;
-        width:700px ;
+        width:200px ;
         text-align: center;
         color: #26355E;
-        font-size: 50pt;
+        font-size: 20pt;
         font-family: 'Shantell Sans', cursive;
         padding: 10px;
         border-radius: 30px;
 }
+
+#splash_home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
